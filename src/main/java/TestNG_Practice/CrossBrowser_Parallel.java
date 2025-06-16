@@ -4,22 +4,18 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import Test.BaseClass;
-import helper.Utility;
+import basePackages.BaseClass;
 
 
 
 public class CrossBrowser_Parallel extends BaseClass{
 	
+	WebDriver driver;
 		
 	@Test
 	public void LoginandLogout()

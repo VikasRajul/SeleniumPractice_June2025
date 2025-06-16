@@ -12,7 +12,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import helper.Utility;
+import utilities.Utility;
 
 public class LoginLogOutScenario {
 	WebDriver driver;

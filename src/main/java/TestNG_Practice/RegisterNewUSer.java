@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-import helper.Utility;
+import utilities.Utility;
 
 public class RegisterNewUSer  {
 	
